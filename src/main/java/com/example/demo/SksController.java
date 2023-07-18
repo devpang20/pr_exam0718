@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class SksController {
-    public String home () {
+    public String homeMain () {
         return "메인";
     }
  }
